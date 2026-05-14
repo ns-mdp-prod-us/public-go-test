@@ -4,6 +4,11 @@
     "config:recommended"
   ],
   "addLabels": [ "renovate", "deps" ],
+  "customEnvVariables": {
+    "GOPRIVATE": "github.com/ns-pkgs/golang-lib-private",
+    "GONOSUMDB": "github.com/ns-pkgs/golang-lib-private",
+    "GONOPROXY": "github.com/ns-pkgs/golang-lib-private",
+  },
   /*
   "hostRules": [
     {
