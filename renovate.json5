@@ -5,7 +5,6 @@
   ],
   "addLabels": [
     "renovate",
-    "deps" 
   ],
   "env": {
     "GOPRIVATE": "github.com/ns-pkgs/golang-lib-private",
