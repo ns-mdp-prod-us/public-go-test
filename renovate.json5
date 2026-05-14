@@ -4,10 +4,12 @@
     "config:recommended"
   ],
   "addLabels": [ "renovate", "deps" ],
+  /*
   "hostRules": [
     {
       "matchHost": "github.com/ns-pkgs",
       "token": "{{ secrets.RO__ns_pkgs }}"
     }
   ]
+  */
 }
