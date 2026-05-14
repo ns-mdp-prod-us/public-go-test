@@ -7,7 +7,6 @@
   "hostRules": [
     {
       "matchHost": "github.com/ns-pkgs",
-      "hostType": "go",
       "token": "{{ secrets.RO__ns_pkgs }}"
     }
   ]
