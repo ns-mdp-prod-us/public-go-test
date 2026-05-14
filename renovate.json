@@ -6,7 +6,7 @@
   "addLabels": [ "renovate", "deps" ],
   "hostRules": [
     {
-      "matchHost": "https://github.com/ns-pkgs",
+      "matchHost": "github.com/ns-pkgs",
       "hostType": "go",
       "token": "{{ secrets.RO__ns_pkgs }}"
     }
