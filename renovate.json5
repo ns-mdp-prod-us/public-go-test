@@ -12,12 +12,14 @@
     "GONOSUMDB": "github.com/ns-pkgs/golang-lib-private",
     "GONOPROXY": "github.com/ns-pkgs/golang-lib-private",
   },
-  /*
   "hostRules": [
     {
-      "matchHost": "github.com/ns-pkgs",
+      "matchHost": "github.com/ns-pkgs/golang-lib-private",
+      "token": "{{ secrets.RO__ns_pkgs }}"
+    },
+    {
+      "matchHost": "api.github.com/ns-pkgs/golang-lib-private",
       "token": "{{ secrets.RO__ns_pkgs }}"
     }
   ]
-  */
 }
