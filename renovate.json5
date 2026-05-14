@@ -3,7 +3,10 @@
   "extends": [
     "config:recommended"
   ],
-  "addLabels": [ "renovate", "deps" ],
+  "addLabels": [
+    "renovate",
+    "deps" 
+  ],
   "env": {
     "GOPRIVATE": "github.com/ns-pkgs/golang-lib-private",
     "GONOSUMDB": "github.com/ns-pkgs/golang-lib-private",
